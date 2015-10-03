@@ -1,0 +1,9 @@
+This c++ code is a simple version of stratified atmospheric delay removal. It can be extended to a more general definition: If there is data A in bi-float format (NASA JPL data format for radar processing, with first line the float amplitude value, and second line the float phase value. And we are interested in the phase), and an interfering signal which is known to be linearly correlated to another float format data B. The code calculates the maximum portion correlated to B in A.
+
+The command line arguments are: 1. the input interferogram file name; 2. The coherence file name of A; 3. The dem file name; 4. the mask file name; 5. number of columns; 6. threshold of phase difference (the first derivative); 7. threshold for coherence; 8. inversion method: 0. mean and 1. median; 9. out file name
+
+The way for compilation is: c++ ./main.cpp -o remove_aps    
+It has been tested on mac OS 10.9 and linux cluster cluster with centOS. The compiler versions used for testing are gcc4.7 and c++ 5.1
+
+Any question please contact Wenliang Zhao at "zhaowenliangpolyu@gmail.com"
+Latest update: Apr. 2014

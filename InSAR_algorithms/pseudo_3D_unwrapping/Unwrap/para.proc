@@ -1,0 +1,7 @@
+processdir = /scratch/wlzhao/NSBAS/YAMZHO/405_env/WDIR
+unwrap_str = filtSW_cor_*-*_col_ramp_aps_4rlks.int
+method = NSBAS
+MASK = /scratch/wlzhao/NSBAS/YAMZHO/405_env/WDIR/INTERFERO/no_mask
+cor_th = 0.1
+AMPFILE1 = 1
+AMPFILE2 = 1

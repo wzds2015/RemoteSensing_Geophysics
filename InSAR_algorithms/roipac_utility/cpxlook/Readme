@@ -1,0 +1,8 @@
+This c++ code is used for multi-look the InSAR interferogram in roipac format (bi-float).
+The command line arguments are: 1. input file name; 2. number of columns; 3. multi-look window size (in both range and azimuth)
+
+compilation: c++ ./cpxlooks.cpp -o cpxlook
+It has been test using c++ 5.1.
+
+Any question please contact Wenliang Zhao at "zhaowenliangpolyu@gmail.com"
+Latest update: May 2014

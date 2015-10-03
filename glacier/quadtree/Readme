@@ -1,0 +1,7 @@
+A simple python function for quadtree down sampling.
+
+Dependency: numpy, matplotlib
+Test: python test.py, check if you can dispaly QDT.png
+
+Author: Wenliang Zhao, zhaowenliangpolyu@gmail.com
+Last update: Oct.05, 2014

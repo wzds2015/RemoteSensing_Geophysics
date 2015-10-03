@@ -1,0 +1,9 @@
+This matlab code is used for multi-dimensional InSAR time-series inversion (this version only works for 2 tracks case with 1 ascending and 1 descending). The main file is interferograms2timeseries_3D.m. It calls Make_designMatrix_3D.m to build the design matrix of the multi-dimensional SBAS. CalcDateList.m calculates a datelist(in date format) and dayslist(in integer) of all the epochs in the data set. yymmdd2y.m changes date format time to a decimal year. convert_unit.m changes unit between radar phase (rad) and ground displacement (m, cm or mm). 
+
+The inputs for interferograms2timeseries_3D.m are: 1) A interferogram list structure with fields of data(the phase), first_x(the left longitude), first_y(the up latitude), x_step(longitude resolution in degree), y_step(latitude resolution in degree), Unit (unit of phase usually in rad); 2) lookangle list structure in order of interferogram; 3) azimuth angle list structure in order of interferogram; 4) number of data on the first track (notice: the order of interferogram list should be first track first); 5) days before the first overlapping date (e.g. if the first date on track1 is Oct.1, and first date on track2 is Oct.15, this value should be 14); 6) similar to 5, days after the last overlapping date; 7) a interferogram list structure or data from track1
+
+The code has been tested using matlab 2010a,b, 2011b, 2012a on linux cluster and mac OS. 
+
+Any question please contact The author Wenliang Zhao at "zhaowenliangpolyu@gmail.com"
+
+Last update: June 2012  

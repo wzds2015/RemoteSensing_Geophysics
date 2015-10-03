@@ -1,0 +1,7 @@
+This python code is used for layered elastic modeling from InSAR time-series. The user needs to create a working directory, under working dir make a dir for "InSAR" and dir for "Model", then prepare a parameter text file (an example is included in the package). Two uitility libraries are included also -- Rsmas_Utilib.py and ElasticSAR.py
+
+The users needs to have numpy, scipy, mpi4py, matplotlib, gdal and osgeo pre-installed with proper enviroment setting.
+
+Any question please contact Wenliang Zhao at "zhaowenliangpolyu@gmail.com"
+Latest update: Sep. 2014
+

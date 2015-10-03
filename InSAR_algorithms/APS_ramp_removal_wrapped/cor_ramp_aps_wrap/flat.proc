@@ -1,0 +1,13 @@
+interf=/scratch/wlzhao/NSBAS/YAMZHO/405_env/WDIR/INTERFERO
+pattern=_2rlks.int
+mask=/scratch/wlzhao/NSBAS/YAMZHO/405_env/WDIR/INTERFERO/maskfile_ramp
+plane_type = 2
+APS_type = 1
+step = 50,2,100,4,150,6,200,8
+th_d = 2.5,1.5,2,1,2,1,2,1
+th_c = 0.15
+method = 0
+solution = 2
+dem=/scratch/wlzhao/NSBAS/YAMZHO/405_env/WDIR/20070220/radar_2rlks.dem
+software = NSBAS
+
