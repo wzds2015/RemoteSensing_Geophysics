@@ -1,6 +1,6 @@
 RemoteSensing & Geophysics codes for image processing, time-series analysis, and modeling 
 
-Author: Wenliang Zhao, zhaowenliangpolyu@gmail.com
+Author: Wenliang Zhao, wz927@nyu.edu
 
 PhD in Remote Sensing & Geophysics
 
