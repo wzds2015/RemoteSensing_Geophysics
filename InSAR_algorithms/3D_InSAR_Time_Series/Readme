@@ -4,6 +4,6 @@ The inputs for interferograms2timeseries_3D.m are: 1) A interferogram list struc
 
 The code has been tested using matlab 2010a,b, 2011b, 2012a on linux cluster and mac OS. 
 
-Any question please contact The author Wenliang Zhao at "zhaowenliangpolyu@gmail.com"
+Any question please contact The author Wenliang Zhao at "wenliang.zhao.nyu@gmail.com"
 
 Last update: June 2012  
