@@ -2,6 +2,6 @@ This python code is used for layered elastic modeling from InSAR time-series. Th
 
 The users needs to have numpy, scipy, mpi4py, matplotlib, gdal and osgeo pre-installed with proper enviroment setting.
 
-Any question please contact Wenliang Zhao at "zhaowenliangpolyu@gmail.com"
+Any question please contact Wenliang Zhao at "wenliang.zhao.nyu@gmail.com"
 Latest update: Sep. 2014
 
